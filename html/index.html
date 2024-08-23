@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Cadastro</title>
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="estilo1.css" rel="stylesheet"> 
+  <link rel="icon" href="../img/Approve_icon.svg.png">
+</head>
+<body style="background-image: url('../img/texture-3676677_1280.jpg') ;background-color: aqua; height: 100vh; margin: 0; display: flex; justify-content: center; align-items: center;">
+
+  <div style=" color: white ;padding: 20px; border-radius: 10px; box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1); text-align: center;">
+    <h1 style="color: white;">Formulário de Cadastro do Cliente</h1>
+    <form class="form-horizontal">
+      <div class="control-group" style="margin-bottom: 15px;">
+        <label class="control-label" for="inputNome" style="margin-bottom: 5px;">Nome</label>
+        <div class="controls">
+          <input type="text" id="inputNome" placeholder="Digite seu Nome" style="width: 100%; padding: 8px; border-radius: 5px; border: 1px solid #ccc;">
+        </div>
+      </div>
+      
+      <div class="control-group" style="margin-bottom: 15px;">
+        <label class="control-label" for="inputEmail" style="margin-bottom: 5px;">Email</label>
+        <div class="controls">
+          <input type="text" id="inputEmail" placeholder="Digite seu Email" style="width: 100%; padding: 8px; border-radius: 5px; border: 1px solid #ccc;">
+        </div>
+      </div>
+
+      <div class="control-group" style="margin-bottom: 15px;">
+        <label class="control-label" for="inputCargo" style="margin-bottom: 5px;">Cargo</label>
+        <div class="controls">
+          <input type="text" id="inputCargo" placeholder="Digite seu Cargo" style="width: 100%; padding: 8px; border-radius: 5px; border: 1px solid #ccc;">
+        </div>
+      </div>
+
+      <div class="control-group" style="margin-bottom: 15px;">
+        <label class="control-label" for="inputEmpresa" style="margin-bottom: 5px;">Empresa</label>
+        <div class="controls">
+          <input type="text" id="inputEmpresa" placeholder="Digite sua Empresa" style="width: 100%; padding: 8px; border-radius: 5px; border: 1px solid #ccc;">
+        </div>
+      </div>
+
+      <div class="control-group" style="margin-bottom: 15px;">
+        <div class="controls">
+          <label class="checkbox" style="margin-bottom: 10px;">
+            <input type="checkbox"> Lembre-se de mim
+          </label>
+          <button type="submit" class="btn btn-primary" style="padding: 10px 20px; border-radius: 5px;">Entrar</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
